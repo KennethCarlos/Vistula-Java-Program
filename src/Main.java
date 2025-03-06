@@ -18,5 +18,6 @@ public class Main {
         System.out.println("The cost of the product with vat is: " + String.format("%.2f",finalPrice));
         System.out.println("The value without vat is: " +  String.format("%.2f",cost*10000));
         System.out.println("The value with vat is: " +  String.format("%.2f",finalPrice*10000));
+
     }
 }
